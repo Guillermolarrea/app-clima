@@ -1,0 +1,41 @@
+.container {
+    width: 350px; 
+    height: 200px;
+    background-color:transparent;
+    border-radius: 5px;
+    border: solid 2px white;
+    margin: auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto;
+    color:beige;
+}
+.btnPosition{
+    display: flex;
+    justify-content: right;
+    
+}
+.btn {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-justify: auto;
+    font-weight: bold;
+}
+
+.minMaxPosition{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+   
+}
+
+   
+ 

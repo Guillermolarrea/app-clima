@@ -1,0 +1,58 @@
+.search {
+    display: flex;
+    grid-template-columns: 2;
+    padding-right: 20px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: transparent;
+    height:50px;
+    max-width: max-content; 
+    margin-left:auto;
+    margin-right: 20px;
+}
+
+.input {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 250px;
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: transparent;
+    width: 150px;
+    height: 30px;
+    color: rgb(43, 227, 6);
+    border-color: rgb(43, 227, 6);
+    font-weight: bold;
+    border-radius: 5px;
+    /* position: relative; */
+    overflow: hidden;
+
+}
+.btn::before{
+    content: "Search";
+    transition: all .5s ease-in-out;
+    display: block;
+    position:relative;
+    top: 0px;
+    
+}
+
+.btn:hover::before{
+    top: -40px; 
+}
+
+.btn::after {
+    content: "Has Click!!!";
+    transition: all .5s ease-in-out;
+    display: block;
+    position: relative;
+    top: 40px;
+}
+
+.btn:hover::after{
+    top: -25px;
+}
