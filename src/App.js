@@ -39,7 +39,6 @@ function App() {
     
     return (
       <div className="App">
-      { /* Tu código acá: */ }
       <Nav onSearch={onSearch}/>
       <Cards cities={cities} onClose={onClose}/>
     </div>
