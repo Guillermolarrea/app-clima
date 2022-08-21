@@ -3,7 +3,7 @@
     padding: 2rem;
 }
 .contLeft{
-    display: flex;
+    display: flex
 }
 
 .imgHenry{
@@ -14,5 +14,15 @@
 .parrafo{
     margin-left: 1rem;
     font-size: 1.5rem;
-    color: beige;
+    color: yellow;
+    
+}
+
+.link{
+  display: flex;
+  position: relative;
+  margin-left: 3rem;
+  margin-right:auto; 
+  color: rgb(93, 194, 248); 
+  font-size: 1.5rem;
 }

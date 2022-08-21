@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import s from  '../styles/Card.module.css';
+
 
 export default function Card({min, max, name, img, onClose, id}) {
   // acá va tu código
@@ -9,7 +11,9 @@ export default function Card({min, max, name, img, onClose, id}) {
     <div className={s.btnPosition}>
       <button className={s.btn} onClick={onClose}> X </button>
     </div>
+      <Link to={`/city/${id}`}>
     <h2>{name}</h2>
+    </Link>
     <div>
       <div className={s.minMaxPosition}>
       <div>
